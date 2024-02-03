@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: outfit;
+}
+
+body{
+    background-color: rgba(168, 206, 206, 0.413);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.heroSection{
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageSection{
+    background-color: rgb(52, 105, 185);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#image{
+    width: 200px;
+    margin: 50px;
+}
+
+.detailSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.insta{
+    font-family: Pacifico;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.description{
+    color: rgb(104, 99, 99);
+    padding: 20px;
+    text-align: center;
+}
